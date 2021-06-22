@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BalutVendorSystem.jnlp">
+  <information>
+    <title>BalutVendorSystem</title>
+    <vendor>k</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BalutVendorSystem.jar" size="65852" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\jfoenix-9.0.10.jar" size="2432549" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.25.jar" size="2428320" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="balutvendorsystem.BalutVendorSystem"  name="BalutVendorSystem" />
+  <update check="always"/>
+</jnlp>
